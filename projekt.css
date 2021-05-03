@@ -16,29 +16,28 @@
 .navbar{
     
     position: fixed;
-    width: 80%;
+    width: 100%;
     z-index: 999;
     padding: 18px 0;
     font-family: 'Ubuntu', sans-serif;
     display: flex;
-    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
     text-align: center;
-    margin-left: 10%;
+    padding: 10px;
+    transition: all 0.3s ease;
 }
 
 .navbar.sticky{
-    
-    padding: 15px 0;
     background: crimson;
 }
 
-.navbar .nav{
-    
-}
+
 
 .navbar .arrow{
     color: #fff;
     font-size: 20px;
+    
 }
 
 .navbar .nav .logo{
