@@ -384,6 +384,11 @@ section .title::after{
     height: 400px;
 }
 
+.carousel a{
+    text-decoration: none;
+    color: #fff;
+}
+
 .testimonials .carousel .card:hover{
     background: crimson;
 
