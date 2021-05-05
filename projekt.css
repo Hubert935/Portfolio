@@ -64,6 +64,20 @@
     background: #111;
     content: "SQL";
 }
+.services .radioinfo::after{
+    background: #111;
+    content: "Java";
+}
+
+.services .spsms::after{
+    background: #111;
+    content: "XD";
+}
+.services .cgi::after{
+    background: #111;
+    content: "UX";
+}
+
 .services .serv-content .card{
     width: calc(33% - 20px);
     background: #222;
@@ -133,10 +147,37 @@
     justify-content: center;
 
 }
+.About .images .murloc{
+    display: flex;
+    justify-content: center;
+
+}
+
+.About .images .spsm{
+    display: flex;
+    justify-content: center;
+
+}
 
 .About .images .startscreen img{
     width: 60%;
     height: 100%;
+    border: 1px solid;
+    
+    box-shadow: 5px 10px #888888;
+}
+
+.About .images .spsm img{
+    width: 70%;
+    height: 89%;
+    border: 1px solid;
+    
+    box-shadow: 5px 10px #888888;
+}
+
+.About .images .murloc img{
+    width: 50%;
+    height: 85%;
     border: 1px solid;
     
     box-shadow: 5px 10px #888888;
