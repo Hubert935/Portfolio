@@ -15,26 +15,31 @@ $(document).ready(function(){
     });
 
     //owl carousel script
-    $('.carousel').owlCarousel({
-        margin: 20,
-        loop: true, 
-        autoplayTimeOut: 200,
-        autoplayHoverPause:true,
-        responsive: {
-            0:{
-                items: 1,
-                nav: false
-            },
-            600:{
-                items: 2,
-                nav: false
-            },
-            1000:{
-                items: 3,
-                nav: false
+    jQuery(function($){ 
+
+        $('.carousel').owlCarousel({
+            margin: 20,
+            loop: true, 
+            autoplayTimeOut: 200,
+            autoplayHoverPause:true,
+            responsive: {
+                0:{
+                    items: 1,
+                    nav: false
+                },
+                600:{
+                    items: 2,
+                    nav: false
+                },
+                1000:{
+                    items: 3,
+                    nav: false
+                }
             }
-        }
-    });
+        });
+     });
+
+    
 
     
 });

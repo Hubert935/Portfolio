@@ -28,6 +28,15 @@
     background: crimson;
 }
 
+.active {
+    font-weight: bold !important;
+    color: beige !important;
+    
+}
+
+#fixedbar ul li a, #fixedbar ul li a:visited {
+    color: #fff;
+}
 
 .navbar .max-width{
     display: flex;
@@ -479,8 +488,26 @@ section .title::after{
     margin-top: 10px;
     font-size: 45px;
 }
-.contact .column .social .bajs{
+.contact .column .social .linkedin{
     color: rgb(2, 132, 212);
+}
+.contact .column .social .linkedin:hover,
+.contact .column .social .insta:hover,
+.contact .column .social .fb:hover,
+.contact .column .social .git:hover{
+    animation: oscillate 2.1s;
+}
+
+@keyframes oscillate {
+    0%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(-28deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
 }
 
 .contact .column .social .insta{
